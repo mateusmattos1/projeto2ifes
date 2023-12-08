@@ -32,6 +32,7 @@ body {
     min-height: 100vh;
 }
 
+
 .cabecalho {
     text-align: center;
     font-family: 'Lobster', cursive;
@@ -106,6 +107,22 @@ body {
 #textolocal {
     text-align: center;
     margin-top: 40px;
+}
+
+.imgEventos {
+    margin: auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imgEventos img {
+    width: 640px;
+    height: 336px;
+    object-fit: cover;
 }
 
 .rodape {
